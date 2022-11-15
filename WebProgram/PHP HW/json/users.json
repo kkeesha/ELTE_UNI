@@ -1,0 +1,20 @@
+{
+    "61e056505a9e9": {
+        "username": "Kairat",
+        "password": "$2y$10$zb6chFPl2UBj.KIbnt0pjOogdv46.9MeXOsbyFgH\/UW5xJdN5gLVC",
+        "email": "alkojoevdota@gmail.com",
+        "roles": [
+            "user"
+        ],
+        "id": "61e056505a9e9"
+    },
+    "61e06446cbc6b": {
+        "username": "qqq",
+        "password": "$2y$10$q1zBTnKgACnZBV1k6T3Kou87KOllgJOBPlTSeWlRdJeYnfquVIIZC",
+        "email": "asd@asd.asd",
+        "roles": [
+            "user"
+        ],
+        "id": "61e06446cbc6b"
+    }
+}

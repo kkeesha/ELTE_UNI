@@ -1,0 +1,961 @@
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+    color: #343434;
+    background-color: gray;
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  /*=============HEADER==============*/
+
+  .header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-top: 9px;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__logo>img {
+    border-radius: 50%;
+    height: 80px;
+    width: 110px;
+    background-color: red;
+  }
+
+  .header__inner {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background: linear-gradient(grey, black);
+  }
+
+  .nav {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 100px;
+  }
+
+  .nav__link {
+    margin-left: 110px;
+    color: white;
+    opacity: .75;
+    font-family: 'Girassol', cursive;
+    font-size: 20px;
+    transition: opacity 0.1s linear;
+  }
+
+  .nav__link:first-child:hover {
+    color: rgb(224, 60, 60);
+    opacity: 1;
+    font-size: 19px;
+  }
+
+  .nav__link:last-child {
+    color: rgb(224, 60, 60);
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+
+  /*=========FORM=======*/
+
+  span {
+    color: rgb(241, 245, 28);
+  }
+
+  #NOTE {
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 10px;
+    color: white;
+  }
+
+
+  form {
+    padding-top: 10px;
+    width: 552px;
+    margin: 20px auto;
+    border-top: 2px solid red;
+
+  }
+
+  fieldset {
+    margin: auto;
+    width: 470px;
+    height: 860px;
+    border: 1px solid #e5e5e5;
+    border-top: 0px solid #e5e5e5;
+    background: rgb(240, 70, 70);
+    padding: 40px;
+  }
+
+  form div {
+    padding: 0 0 40px 0;
+  }
+
+  .checkbox {
+    padding-left: 200px;
+  }
+
+  /*==============RADIO BUTTON===============*/
+
+  .radio {
+    padding-left: 200px;
+  }
+
+  /*=========================================*/
+  form label {
+    float: left;
+    width: 200px;
+    font-size: 1em;
+    color: black;
+  }
+
+
+
+  form input,
+  form select {
+    background: white;
+    border: 2px solid #fff;
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    width: 240px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+  form input:hover,
+  form select:hover,
+  form textarea:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+
+  form select {
+    float: left;
+    margin-bottom: 40px;
+    appearance: none;
+    width: 260px;
+    border-radius: 0;
+  }
+
+  form input.checkbox,
+  form input.radio {
+    margin: 0;
+    padding: 2px 0;
+    width: auto;
+    height: auto;
+
+  }
+
+  form input.button {
+    width: 270px;
+    height: 40px;
+    border: 0px solid #fff;
+  }
+
+  form textarea {
+    border-radius: 5px;
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+    background: white;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+  }
+
+  .bottom_buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form input.submit {
+    float: left;
+    margin-right: 7px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    font-weight: initial;
+  }
+
+  form input.reset {
+    font-size: 17px;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    font-weight: initial;
+  }
+
+  footer {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+
+  }
+
+  .foot {
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background: linear-gradient(grey, black);
+  }
+
+  .bot_but {
+    font-family: 'Girassol', cursive;
+    font-size: 20px;
+    margin-left: 70px;
+    width: 20px;
+    height: 20px;
+    color: wheat;
+    background: linear-gradient(rgb(228, 73, 73), black);
+    border: 2px solid white;
+    text-decoration: none;
+    opacity: .75;
+    transition: 0.1s;
+  }
+
+  .bot_but:last-child {
+    margin-left: 250px;
+  }
+
+  .bot_but:hover {
+    color: white;
+    border: none;
+    background: none;
+    opacity: 1;
+  }
+
+  /*=========Sources==========*/
+
+  .sources {
+    margin-top: 50px;
+    padding-left: 70px;
+    font-size: 20px;
+  }
+
+  .links {  
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  .sites {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .sites:last-child {
+    padding-left: 150px;
+  }
+
+  .sites:hover {
+    font-size: 19px;
+    text-decoration: none;
+    font-style: oblique;
+  }
+
+  .madeByMe {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .myemail {
+    color: rgb(241, 245, 28);
+  }
+
+  .myemail:hover {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+    color: #343434;
+    background-color: gray;
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  /*=============HEADER==============*/
+
+  .header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-top: 9px;
+  }
+
+  .header__logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__logo>p {
+    color: white;
+    font-size: 25px;
+    padding-left: 60px;
+    font-family: 'Girassol', cursive;
+  }
+
+  .header__logo>img {
+    display: none;
+  }
+
+  .header__inner {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background: linear-gradient(grey, black);
+  }
+
+  .nav {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 100px;
+  }
+
+  .nav__link {
+    margin-left: 50px;
+    color: white;
+    opacity: .75;
+    font-family: 'Girassol', cursive;
+    font-size: 22px;
+    transition: opacity 0.1s linear;
+  }
+
+  .nav__link:first-child:hover {
+    color: rgb(224, 60, 60);
+    opacity: 1;
+    font-size: 25px;
+  }
+
+  .nav__link:last-child {
+    color: rgb(224, 60, 60);
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .hashtag {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  /*=========FORM=======*/
+
+  span {
+    color: rgb(241, 245, 28);
+  }
+
+  #NOTE {
+    padding: 150px 80px;
+    padding-bottom: 0;
+    font-size: 24px;
+    color: white;
+  }
+
+  form {
+    padding-top: 10px;
+    width: 552px;
+    margin: 20px auto;
+    border-top: 2px solid red;
+
+  }
+
+  fieldset {
+    margin: auto;
+    width: 470px;
+    height: 860px;
+    border: 1px solid #e5e5e5;
+    border-top: 0px solid #e5e5e5;
+    background: rgb(240, 70, 70);
+    padding: 40px;
+  }
+
+  form div {
+    padding: 0 0 40px 0;
+  }
+
+  .checkbox {
+    padding-left: 200px;
+  }
+
+  /*==============RADIO BUTTON===============*/
+
+  .radio {
+    padding-left: 200px;
+  }
+
+  /*=========================================*/
+  form label {
+    float: left;
+    width: 200px;
+    font-size: 1em;
+    color: black;
+  }
+
+
+
+  form input,
+  form select {
+    background: white;
+    border: 2px solid #fff;
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    width: 240px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+  form input:hover,
+  form select:hover,
+  form textarea:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+
+  form select {
+    float: left;
+    margin-bottom: 40px;
+    appearance: none;
+    width: 260px;
+    border-radius: 0;
+  }
+
+  form input.checkbox,
+  form input.radio {
+    margin: 0;
+    padding: 2px 0;
+    width: auto;
+    height: auto;
+
+  }
+
+  form input.button {
+    width: 270px;
+    height: 40px;
+    border: 0px solid #fff;
+  }
+
+  form textarea {
+    border-radius: 5px;
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+    background: white;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+  }
+
+  .bottom_buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form input.submit {
+    float: left;
+    margin-right: 7px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    font-weight: initial;
+  }
+
+  form input.reset {
+    font-size: 17px;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    font-weight: initial;
+  }
+
+  footer {
+    width: 100%;
+    max-width: 555px;
+    margin: 0 auto;
+
+  }
+
+  .foot {
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background: linear-gradient(grey, black);
+  }
+
+  .bot_but {
+    font-family: 'Girassol', cursive;
+    font-size: 25px;
+    margin-left: 10px;
+    width: 24px;
+    height: 22px;
+    color: wheat;
+    text-align: center;
+    background: linear-gradient(rgb(228, 73, 73), black);
+    border: 2px solid white;
+    text-decoration: none;
+    opacity: .75;
+    transition: 0.1s;
+  }
+
+  .bot_but:last-child {
+    margin-left: 370px;
+  }
+
+  .bot_but:hover {
+    color: white;
+    border: none;
+    background: none;
+    opacity: 1;
+  }
+
+  /*=========Sources==========*/
+
+  .sources {
+    margin-top: 50px;
+    padding-left: 100px;
+    font-size: 30px;
+  }
+
+  .links {
+    padding-top: 10px;
+    font-size: 20px;
+
+  }
+
+  .sites {
+    color: #fff;
+  }
+
+  .sites:last-child {
+    padding-left: 150px;
+  }
+
+  .sites:hover {
+    font-size: 19px;
+    text-decoration: none;
+    font-style: oblique;
+  }
+
+  .madeByMe {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .myemail {
+    color: rgb(241, 245, 28);
+  }
+
+  .myemail:hover {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width:1000px) {
+  body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+    color: #343434;
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  /*=============HEADER==============*/
+
+  .header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-top: 9px;
+  }
+
+  .header__logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__logo>p {
+    color: white;
+    font-size: 25px;
+    padding-left: 60px;
+    font-family: 'Girassol', cursive;
+  }
+
+  .header__logo>img {
+    border-radius: 50%;
+    height: 80px;
+    width: 110px;
+    background-color: red;
+    display: block;
+  }
+
+  .header__inner {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background: linear-gradient(grey, black);
+  }
+
+  .nav {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 100px;
+  }
+
+  .nav__link {
+    margin-left: 50px;
+    color: white;
+    opacity: .75;
+    font-family: 'Girassol', cursive;
+    font-size: 22px;
+    transition: opacity 0.1s linear;
+  }
+
+  .nav__link:first-child:hover {
+    color: rgb(224, 60, 60);
+    opacity: 1;
+    font-size: 25px;
+  }
+
+  .nav__link:last-child {
+    color: rgb(224, 60, 60);
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .hashtag {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  /*=========FORM=======*/
+
+  span {
+    color: rgb(241, 245, 28);
+  }
+
+  #NOTE {
+    padding: 150px 200px;
+    padding-bottom: 0;
+    font-size: 24px;
+    color: white;
+    background-color: blue;
+  }
+
+  #change {
+    margin-left: 500px;
+  }
+
+  .color {
+    text-align: center;
+  }
+
+  form {
+    padding-top: 10px;
+    width: 552px;
+    margin: 20px auto;
+    border-top: 2px solid red;
+
+  }
+
+  fieldset {
+    margin: auto;
+    width: 470px;
+    height: 860px;
+    border: 1px solid #e5e5e5;
+    border-top: 0px solid #e5e5e5;
+    background: rgb(206, 71, 71);
+    padding: 40px;
+  }
+
+  form div {
+    padding: 0 0 40px 0;
+  }
+
+  .checkbox {
+    padding-left: 200px;
+  }
+
+  /*==============RADIO BUTTON===============*/
+
+  .radio {
+    padding-left: 200px;
+  }
+
+  /*=========================================*/
+  form label {
+    float: left;
+    width: 200px;
+    font-size: 1em;
+    color: black;
+  }
+
+
+
+  form input,
+  form select {
+    background: white;
+    border: 2px solid #fff;
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    width: 240px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+  form input:hover,
+  form select:hover,
+  form textarea:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+
+  form select {
+    float: left;
+    margin-bottom: 40px;
+    appearance: none;
+    width: 260px;
+    border-radius: 0;
+  }
+
+  form input.checkbox,
+  form input.radio {
+    margin: 0;
+    padding: 2px 0;
+    width: auto;
+    height: auto;
+
+  }
+
+  form input.button {
+    width: 270px;
+    height: 40px;
+    border: 0px solid #fff;
+  }
+
+  form textarea {
+    border-radius: 5px;
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+    background: white;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+  }
+
+  .bottom_buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form input.submit {
+    float: left;
+    margin-right: 7px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    font-weight: initial;
+  }
+
+  form input.reset {
+    font-size: 17px;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    font-weight: initial;
+  }
+
+  footer {
+    width: 100%;
+    max-width: 555px;
+    margin: 0 auto;
+
+  }
+
+  .foot {
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background: linear-gradient(grey, black);
+  }
+
+  .bot_but {
+    font-family: 'Girassol', cursive;
+    font-size: 25px;
+    margin-left: 10px;
+    width: 24px;
+    height: 22px;
+    color: wheat;
+    text-align: center;
+    background: linear-gradient(rgb(228, 73, 73), black);
+    border: 2px solid white;
+    text-decoration: none;
+    opacity: .75;
+    transition: 0.1s;
+  }
+
+  .bot_but:last-child {
+    margin-left: 370px;
+  }
+
+  .bot_but:hover {
+    color: white;
+    border: none;
+    background: none;
+    opacity: 1;
+  }
+
+  /*=========Sources==========*/
+
+  .sources {
+    margin-top: 50px;
+    padding-left: 475px;
+    font-size: 40px;
+  }
+
+  .links {
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 100px;
+  }
+
+  .sites {
+    color: #fff;
+  }
+
+  .sites:last-child {
+    padding-left: 150px;
+  }
+
+  .sites:hover {
+    font-size: 32px;
+    text-decoration: none;
+    font-style: oblique;
+  }
+
+  .madeByMe {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .myemail {
+    color: rgb(241, 245, 28);
+  }
+
+  .myemail:hover {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+
+}

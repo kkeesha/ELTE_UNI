@@ -1,0 +1,825 @@
+@media only screen and (max-width: 768px){
+    body{
+        font-family: 'Righteous', cursive;
+        color: black;
+        background-color: #fff;
+    }
+    
+    
+    .container{
+        width: 100%;
+        max-width: 1000px;
+    }
+    
+    /*=============HEADER==============*/
+    
+    .header{
+        width: 466px;
+        height: 50px;
+        position: absolute;
+        padding-top: 9px;
+    }
+
+    .header__logo > p{
+        display: none;
+    }
+    .header__logo > img{
+        display: none;
+    }
+    .header__inner{
+        display: flex;
+        padding: 20px;
+        border-bottom: 3px solid rgb(228, 73, 73);
+        align-items: center;
+        background-image: url(Pics/Thegentlemen/black.jpg);
+    }
+    
+    .nav{
+        display: flex;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    .nav__link{
+        margin-left: 115px;
+        color:white;
+        text-decoration: none;
+        opacity: .75;
+        font-family: 'Girassol', cursive;
+        font-size: 1.5em;
+        transition: opacity 0.1s linear;
+    }
+    
+    .nav__link:first-child{
+        color:white;
+        font-weight: 900;
+    }
+    .nav__link:nth-child(2){
+        color:rgb(224, 60, 60);
+        font-weight: 900;
+        text-decoration: underline;
+    }
+    
+    .nav__link:hover{
+        color:white;
+        opacity: 1;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .hashtag{
+        padding-top: 10px;
+        font-size: 0.5em;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    /*===============INTRO===============*/
+    
+    figcaption{
+        font-size: 0.4em;
+    }
+    .intro{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        background: #555; 
+    }
+    .Disclaimer{
+        padding-top: 15px;
+        color: red;
+        font-size: 20px;
+        font-family: 'Righteous', cursive;
+    }
+    .MBMC{
+        padding-top: 90px;
+        font-family: 'Girassol', cursive;
+        font-size: 25px;
+    }
+    
+    .disclaimer_text{
+        font-size: 10px;
+        font-family: 'Righteous', cursive;
+        margin: 10px 60px ;
+    }
+    
+    .name-imdb1{
+        display: flex;
+        padding-left: 20px;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 16px;
+        color: rgb(238, 37, 37);
+    }
+    span{
+        color: rgb(252, 47, 47);
+    }
+    
+    .gentlemen{
+        display: flex;
+    }
+    
+    img{
+        height: 200px;
+        width: 100px;
+    }
+    
+    .plot_g{
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 15px;
+    }
+    
+    .plot_content{
+        padding-top: 20px;
+        margin-right: 40px;
+        font-size: 11px;
+        color:white;
+        font-family: 'Righteous', cursive;
+
+    }
+    .g_trailer{
+        margin-top: 20px;
+        font-size: 20px;
+        padding-left: 130px;
+    }
+
+    video{
+        padding-left: 35px;
+        width: 270px;
+        height: 170px;
+    }
+    audio{
+        padding-top: 20px;
+        padding-left: 30px;
+        width: 230px;
+        height: 30px;
+    }
+    .audio_descrip{
+        padding-top: 20px;
+        font-size: 15px;
+        padding-left: 30px;
+    }
+    .g_more{
+        display: flex;
+        padding-top: 50px;
+    }
+    .table_stat > table {
+        font-size: 6px ;
+        font-family: 'Righteous', cursive;
+        width: 90%;
+        margin-left: 30px;
+      }
+      
+      td{
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      tr:nth-child(even) {
+        background-color:rgb(209, 68, 68);
+      }
+    
+    .trailer{
+        padding-right: 100px;
+    }
+    
+    .g_cast{
+        padding-top: 20px;
+        padding-right: 350px;
+    }
+    
+    .g_actors{
+        display: flex;
+        margin-right:10px;
+    }
+    .cast{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .cast > img{
+        height: 90px;
+        width: 80px;
+    }
+
+    .cast:last-child{
+        display: none;
+    }
+    .name:last-child{
+        display: block;
+    }
+    .name{
+        font-size: 10px;
+    }
+    
+    footer{
+        width: 100%;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer{
+        padding: 20px;
+        display: flex;
+        border-top: 3px solid rgb(228, 73, 73);
+        background: linear-gradient(grey, black);
+    }
+    .pages{
+        display: flex;
+        justify-content: space-between;
+    }
+    .page_num{
+        margin-left: 70px;
+        width: 17px;
+        height: 17px;
+        color: wheat;
+        text-align: center;
+        font: 17px Arial, sans-serif;
+        background: linear-gradient(rgb(228, 73, 73),black);
+        border: 2px solid white;
+        text-decoration: none;
+        opacity: .75;
+    
+        transition: 0.1s;
+    }
+    
+    .page_num:hover{
+        color: white;
+        border: none;
+        background: none;
+        opacity: 1;
+    }
+    
+    .page_num:first-child{
+        color:rgb(224, 60, 60);
+        color: white;
+        border: none;
+        background: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    body{
+        font-family: 'Righteous', cursive;
+        color: #343434;
+        background-color: #fff;
+    }
+    
+    
+    .container{
+        width: 100%;
+        max-width: 1000px;
+    }
+    
+    /*=============HEADER==============*/
+    
+    .header{
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        padding-top: 9px;
+    }
+
+    .header__logo > p{
+        color: white;
+        font-size: 23px;
+        padding-left: 60px;
+        font-family: 'Girassol', cursive;
+    }
+    .header__logo > img{
+        display: none;
+    }
+    .header__inner{
+        display: flex;
+        padding: 20px;
+        border-bottom: 3px solid rgb(228, 73, 73);
+        align-items: center;
+        background-image: url(Pics/Thegentlemen/black.jpg);
+    }
+    
+    .nav{
+        display: flex;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    
+    .nav__link{
+        margin-left: 100px;
+        color:white;
+        text-decoration: none;
+        opacity: .75;
+        font-family: 'Girassol', cursive;
+        font-size: 1.5em;
+        transition: opacity 0.1s linear;
+    }
+    
+    .nav__link:first-child{
+        color:white;
+        font-weight: 900;
+    }
+    .nav__link:nth-child(2){
+        color:rgb(224, 60, 60);
+        font-weight: 900;
+        text-decoration: underline;
+    }
+    
+    .nav__link:hover{
+        color:white;
+        opacity: 1;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    
+    
+    .hashtag{
+        padding-top: 10px;
+        font-size: 0.5em;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    /*===============INTRO===============*/
+    
+    figcaption{
+        font-size: 0.4em;
+    }
+    .intro{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        background: #555; 
+    }
+    .Disclaimer{
+        padding-top: 15px;
+        color: red;
+        font-size: 30px;
+        font-family: 'Righteous', cursive;
+    }
+    .MBMC{
+        padding-top: 150px;
+        font-family: 'Girassol', cursive;
+        font-size: 25px;
+    }
+    
+    .disclaimer_text{
+        font-size: 15px;
+        font-family: 'Righteous', cursive;
+        margin: 20px 60px ;
+    }
+    
+    .name-imdb1{
+        display: flex;
+        padding-left: 20px;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 20px;
+        color: rgb(238, 37, 37);
+    }
+    span{
+        color: rgb(252, 47, 47);
+    }
+    
+    .gentlemen{
+        display: flex;
+    }
+    
+    .img > img{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .plot_g{
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 27px;
+    }
+    
+    .plot_content{
+        padding-top: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        color:white;
+        font-family: 'Righteous', cursive;
+
+    }
+    .g_trailer{
+        font-size: 30px;
+        padding-left: 200px;
+    }
+
+    video{
+        padding-left: 80px;
+        width: 420px;
+        height: 250px;
+    }
+    audio{
+        padding-left: 80px;
+    }
+    .audio_descrip{
+        font-size: 0.5em;
+        padding-left: 80px;
+    }
+    .g_more{
+        display: flex;
+        padding-top: 50px;
+    }
+    .table_stat > table {
+        font-size: 13px ;
+        font-family: 'Righteous', cursive;
+        width: 100%;
+        margin-left: 50px;
+      }
+      
+      td{
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      tr:nth-child(even) {
+        background-color:rgb(209, 68, 68);
+      }
+    
+    .trailer{
+        padding-right: 100px;
+    }
+    
+    .g_cast{
+        padding-top: 40px;
+        padding-right: 550px;
+    }
+    
+    .g_actors{
+        display: flex;
+
+    }
+    .cast{
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .cast > img{
+        height: 100px;
+        width: 80px;
+    }
+    
+    .name{
+        font-size: 13px;
+    }
+    
+    footer{
+        width: 100%;
+        max-width: 758px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer{
+        padding: 20px;
+        display: flex;
+        border-top: 3px solid rgb(228, 73, 73);
+        background: linear-gradient(grey, black);
+    }
+    .pages{
+        display: flex;
+        justify-content: space-between;
+    }
+    .page_num{
+        margin-left: 110px;
+        width: 20px;
+        height: 20px;
+        color: wheat;
+        text-align: center;
+        font: 18px Arial, sans-serif;
+        background: linear-gradient(rgb(228, 73, 73),black);
+        border: 2px solid white;
+        text-decoration: none;
+        opacity: .75;
+    
+        transition: 0.1s;
+    }
+    
+    .page_num:hover{
+        color: white;
+        border: none;
+        background: none;
+        opacity: 1;
+    }
+    
+    .page_num:first-child{
+        color:rgb(224, 60, 60);
+        color: white;
+        border: none;
+        background: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1000px){
+body{
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    font-size:  14px;
+    color: #343434;
+    background-color: #fff;
+    
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*=============HEADER==============*/
+
+.header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-top: 9px;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo > p{
+    color: white;
+    font-size: 30px;
+    padding-left: 60px;
+    font-family: 'Girassol', cursive;
+}
+.header__logo > img{
+        border-radius: 50%;
+        height: 80px;
+        width: 110px;
+        background-color:red;
+        display: block;
+}
+.header__inner{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background-image: url(Pics/Thegentlemen/black.jpg);
+}
+
+.nav{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav__link{
+    margin-left: 50px;
+    color:white;
+    text-decoration: none;
+    opacity: .75;
+    font-family: 'Girassol', cursive;
+    font-size: 1.5em;
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:first-child{
+    color:rgb(224, 60, 60);
+    font-weight: 900;
+}
+.nav__link:nth-child(2){
+    color:rgb(224, 60, 60);
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.nav__link:hover{
+    color: rgb(224, 60, 60);
+    opacity: 1;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.hashtag{
+    padding-top: 10px;
+    font-size: 0.8em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*===============INTRO===============*/
+
+figcaption{
+    font-size: 0.4em;
+}
+.intro{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background: #555; 
+}
+.Disclaimer{
+    padding-top: 15px;
+    color: red;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+.MBMC{
+    padding-top: 150px;
+    font-family: 'Girassol', cursive;
+}
+
+.disclaimer_text{
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
+    margin: 20px 60px ;
+}
+
+.name-imdb1{
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 0%;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 32px;
+    color: rgb(238, 37, 37);
+}
+span{
+    color: rgb(252, 47, 47);
+}
+
+.gentlemen{
+    display: flex;
+}
+
+.img > img{
+    margin-left: 100px;
+    height: 300px;
+    width: 200px;
+}
+
+.plot_g{
+    position: relative;
+    padding-right: 1000px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 27px;
+}
+
+.plot_content{
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 20px;
+    color:white;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.g_trailer{
+    font-size: 50px;
+    padding-left: 550px;
+}
+
+video{
+    width: 530px;
+    height: 300px;
+}
+
+.audio_descrip{
+    font-size: 0.5em;
+}
+.g_more{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.table_stat > table {
+    font-size: 20px ;
+    font-family: 'Righteous', cursive;
+    width: 100%;
+    padding-left: 100px;
+  }
+  
+  td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:rgb(209, 68, 68);
+  }
+
+.trailer{
+    padding-right: 140px;
+}
+
+.g_cast{
+    padding-top: 40px;
+    padding-right: 1100px;
+}
+
+.g_actors{
+    display: flex;
+    padding-left: 60px;
+}
+.cast{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.name{
+    font-size: 18px;
+}
+
+footer{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(228, 73, 73);
+    align-items: center;
+    background: linear-gradient(grey, black);
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+}
+.page_num{
+    margin-left: 140px;
+    width: 24px;
+    height: 24px;
+    color: wheat;
+    text-align: center;
+    font: 22px Arial, sans-serif;
+    background: linear-gradient(rgb(228, 73, 73),black);
+    border: 2px solid white;
+    text-decoration: none;
+    opacity: .75;
+
+    transition: 0.1s;
+}
+
+.page_num:hover{
+    color: white;
+    border: none;
+    background: none;
+    opacity: 1;
+}
+
+.page_num:first-child{
+    color:rgb(224, 60, 60);
+    color: white;
+    border: none;
+    background: none;
+}
+
+}
+
+
+
+
+
+

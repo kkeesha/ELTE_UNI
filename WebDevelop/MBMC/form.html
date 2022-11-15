@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>My Best Movies Choices</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Permanent+Marker&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <img src="pics/logo.jpg" alt="LOGO">
+                        <p>My Best Movie Choices</p>
+                    </div>
+
+                    <div class="nav">
+                        <a class="nav__link" href="index.html">|HOME|</a>
+                        <a class="nav__link" href="form.html">FORM</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--====================FORM====================-->
+
+        <div id="NOTE">
+            <h5>
+                <span>NOTE*</span>
+            These movies were chosen by my <span>individual opinion</span> and the order does not depend on quality,
+            plot,amount of awards or something else. It is <span>just for fun.</span>
+            <br><br>I hope you enjoyed it and you agree with me that these movies are really good! If you think so,
+            please
+            <span>fill in</span> this form below.
+        </h5>
+        <button id="change"> Change color </button>
+        </div>
+
+            
+
+
+        <script src="form.js"></script>
+
+
+        <form action="https://formspree.io/f/mnqljkpb" method="POST">
+            <fieldset>
+                <div>
+                    <label for="FirstName">Full name:</label>
+                    <input type="text" required="required" placeholder="first & last names"
+                 name="firstname">
+                </div>
+
+                <div>
+                    <label class="mid">E-mail address:</label>
+                    <input type="email" required="required" placeholder="email@sample.com" tabindex="2"
+                    name="E-mail address">
+                </div>
+
+                <div>
+                    <label >Do you like watching movies?</label>
+                    <input type="radio" name="radio" class="radio" > Yes!
+                </div>
+                <div class="radio">
+                    <input type="radio" name="radio" class="radio" > No!
+                </div>
+                <div class="radio">
+                    <input type="radio" name="radio" class="radio" > I do not know?!
+                </div>
+
+                <div>
+                    <label >What is/are your favorite movie/s there?</label>
+                    <input type="checkbox" name="check" class="checkbox"> The Gentlemen
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="check" class="checkbox"> The Green Mile
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="check" class="checkbox"> Schindler`s List
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="check" class="checkbox"> Inglourious Basterds
+                </div>
+
+
+
+                <div>
+                    <label>Do you agree that these movies are good?
+                        Why? / Why not?</label>
+                    <textarea cols="40" rows="10" placeholder="Write your opinion..." required="required" name="comment"></textarea>
+                </div>
+
+                <div class="bottom_buttons">
+                    <input type="reset" value="Reset" class="reset">
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+
+            </fieldset>
+        </form>
+        <footer>
+            <div class="foot">
+                <div class="back_home">
+                    <a class="bot_but" href="page4.html">Back</a>
+                    <a class="bot_but" id="bot_home" href="index.html">Home</a>
+                </div>
+            </div>
+        </footer>
+
+        <div class="sources"><span>Sources</span>
+            <div class="links">
+                <a class="sites" href="http://www.imdb.com/">IMDb</a>
+                <a class="sites" href="https://www.wikipedia.org/">Wikipedia</a>
+            </div>
+            <div class="madeByMe">
+                Author: <span>Alkozhoev Kairat</span>
+                <br>E-mail:<a class="myemail" href="mailto:k.alkozhoev@gmail.com"> k.alkozhoev@gmail.com</a>
+                <br> Neptun ID: <span>DMDDNY</span>
+            </div>
+        </div>
+    </body>
+</html>

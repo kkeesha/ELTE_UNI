@@ -1,0 +1,6 @@
+Malik MAL21 losos 10  catfish 5 catfish 1 catfish 40
+Malik MAL21 losos 10  catfish 2
+Kairat KAI22 carp 20  catfish 9 catfish 16
+Kairat KAI22 carp 20  catfish 1 catfish 1 catfish 0
+Almaz ALM23 balyk 200 seledka 10 catfish 2
+Almaz ALM23 balyk 200 seledka 10 catfish 23
